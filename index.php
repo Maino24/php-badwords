@@ -8,9 +8,13 @@ tre volte dietro a lei le mani avvinsi,
 e tante mi tornai con esse al petto
 Amor che ne la mente mi ragiona
 cominciò elli allor sì dolcemente,
-che la dolcezza ancor dentro mi suona'
+che la dolcezza ancor dentro mi suona';
 
+/* LUNGHEZZA PARAGRAFO */
+$lunghezzaParagrafo = strlen($paragrafo);
 
+$parolaCensurata = $_GET["parolaCensurata"];
+echo $parolaCensurata;
 
 ?>
 
@@ -26,6 +30,7 @@ che la dolcezza ancor dentro mi suona'
     
 
 <p><?php echo $paragrafo ?></p>
+<p><?php echo $lunghezzaParagrafo ?></p>
 
 </body>
 </html>
